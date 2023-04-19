@@ -1,0 +1,137 @@
+html {
+    background-color: darkgray;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column-reverse;
+    
+ }
+
+.seccion {
+    /* background-color: darkgray;
+    border: 1px solid black; */
+    border-radius: 4px;
+}
+
+.header {
+    /* border: 1px solid black;
+    border-radius: 4px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+    
+
+}
+
+.header .menu-header  {
+    display: flex;
+    
+    align-items: start;
+    
+}
+
+.img-log {
+    width: 80px;
+    padding: 4px;
+    display: flex;
+    justify-content: start;
+}
+
+ .img1 {
+    width: 100px;
+    height: 100px;
+ }
+
+ button { 
+    padding: 4px 6px 8px 6px;
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(73, 79, 85);
+    color: rgb(235, 218, 218);transition: background-color 0.3s, border 0.2s, box-shadow 0.4s;
+}
+
+.menu {
+    width: 180px;
+}
+
+.producto:hover {
+    background-color: rgb(11, 186, 202);
+    box-shadow: 0 1px 1px rgb(172, 239, 28) ;
+}
+
+button:hover {
+    background-color: rgb(34, 44, 45);
+    box-shadow: 0 1px 1px rgb(172, 239, 28) ;
+}
+
+
+
+.seccion-2 {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-content: flex-start;
+    /* background-color: aqua; */
+    
+    /* width: 500px; */
+
+
+}
+/* .seccion-1 {
+    background-color: blue;
+} */
+
+.img-perfil {
+    width: 120px;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.producto {
+    color: black;
+    padding: 7px 6px 7px 6px;
+    margin: 5px;
+    height: 250px;
+    width: 170px;
+    background-color: #FFFFFF;
+}
+.seccion-1 {
+    display: flex;
+    padding: 10px;
+    gap: 4px;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 641px) { 
+    .contenedor {
+        display: grid;
+        gap: 4px;
+        grid-template-columns: 20% 80%;
+        height: 100vh;
+    }
+    
+    .seccion-1 {
+        display: flex;
+        padding: 10px;
+        gap: 4px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    
+        
+    
+    }
+    
+
+    
+    
+}
