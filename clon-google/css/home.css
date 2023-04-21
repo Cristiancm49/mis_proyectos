@@ -1,0 +1,71 @@
+/* * {
+    display: flex;
+    justify-content: center;
+    
+} */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/fondo.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif; 
+    height: 100vh;  
+     
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+a {
+    color: rgb(222, 245, 15);
+    padding: 5px 7px 5px 7px;
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+  }
+
+.img {
+    width: 40px;
+    height: 40px;
+    padding: 5px 7px 5px 7px;
+}
+.container-header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    
+}
+
+.container-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 25px #b40a9e;
+    backdrop-filter: blur(10px);
+    
+}
+
+.logo-google {
+    width: 250px;
+    height: 120px;
+}
+
+.foto-perfil {
+
+    border-radius: 100px;
+}
+
+.seccion {
+    padding: 15px 20px 15px 20px;
+}
+
